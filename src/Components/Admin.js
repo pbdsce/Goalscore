@@ -4,10 +4,8 @@ import { db } from '../Firebase';
 import './Styles/admin.css';
 import logo from '../logo.svg';
 import { doc, setDoc } from "firebase/firestore"; 
-// import Stack from '@mui/material/Stack';
-// import Button from '@mui/material/Button';
-// import Snackbar from '@mui/material/Snackbar';
-// import MuiAlert from '@mui/material/Alert';
+import Snackbar from '@mui/material/Snackbar';
+import MuiAlert from '@mui/material/Alert';
 
 const Admin = () => {
     const [teamList, setTeamList] = useState([]);
@@ -42,9 +40,19 @@ const Admin = () => {
     const [team2, setTeam2] = useState("");
     const [score2, setScore2] = useState("");
 
+    const [open, setOpen] = React.useState(false);
+
+    
+    const handleClose = (event, reason) => {
+      if (reason === 'clickaway') {
+        return;
+      }
+  
+      setOpen(false);
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log("Clicked");
         if (team1.length !== 0 && team2.length !== 0) {
             try {
                 await setDoc(doc(db,"teams","scores"), {
@@ -53,7 +61,7 @@ const Admin = () => {
                     Score1:score1,
                     Score2:score2 }
                 )
-               
+                setOpen(true);
             }
             catch (err) {
                 console.log(err)
@@ -61,6 +69,9 @@ const Admin = () => {
         }
 
     }
+    const Alert = React.forwardRef(function Alert(props, ref) {
+            return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+    });
     return (
         // <div className='adminpage'>
         // <div className='adminpanel'>
@@ -98,6 +109,13 @@ const Admin = () => {
 
             </div>
             <button type="submit" onClick={(e)=>handleSubmit(e)}>Update</button>
+
+
+            <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+                    <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+                        Score Updated Successfully !
+                    </Alert>
+            </Snackbar>
 
         </div>
     )
