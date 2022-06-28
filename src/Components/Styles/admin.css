@@ -1,0 +1,100 @@
+.adminBody{
+    margin: 0px 0px;
+    background-color: rgb(37, 24, 63);
+    min-height:100vh;
+}
+
+.bar ul
+{
+  
+  list-style-type: none;
+  margin: 0px 0px;
+  padding: 5px;
+    overflow: hidden;
+  background-color: rgb(21, 10, 41);
+}
+
+li{
+    float: auto;
+}
+li a {
+    display: block;
+
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 10px;
+}
+
+.Form{
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Comfortaa', cursive;
+    flex-wrap: wrap;
+}
+.Form form{
+    margin-top:25px ;
+   padding: 30px 30px;
+    border-radius: 13px;
+    /* margin-left: 15px; */
+  background-color: rgb(21, 10, 41);
+}
+.Form h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(17, 139, 56);
+}
+.Form label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 10px;
+color: rgb(49, 174, 49);
+}
+.Form input[type="text"],.Form input[type="number"]{
+    border-radius: 20px;
+    height: 30px;
+    padding: 8px 8px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(139, 192, 141);
+    border: none;
+}
+input[type=number]::-webkit-inner-spin-button , input[type=number]::-webkit-outer-spin-button{
+    opacity: 1 !important;
+    height: 32px;
+  }
+
+button{
+    
+    display: block;
+    margin-top:30px;
+    border-radius: 25px;
+    border: none;
+   
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+    padding:7px 7px;
+    
+    font-family: 'Comfortaa', cursive;
+    width: 150px;
+    background-color: rgb(79, 198, 79);
+color: rgb(21, 10, 41);
+    cursor: pointer;
+}
+button:disabled{
+    cursor:not-allowed;
+}
+button:hover{
+    background-color:  rgb(35, 145, 55);
+    color: aliceblue;
+}

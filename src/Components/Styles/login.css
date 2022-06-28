@@ -1,0 +1,92 @@
+.loginBody{
+    margin: 0px 0px;
+    background-color: rgb(37, 24, 63);
+    min-height:100vh;
+}
+
+.bar ul
+{
+  
+  list-style-type: none;
+  margin: 0px 0px;
+  padding: 5px;
+    overflow: hidden;
+  background-color: rgb(21, 10, 41);
+}
+
+li{
+    float: auto;
+}
+li a {
+    display: block;
+
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 10px;
+}
+
+.loginForm{
+    /* margin-top: 40px; */
+    display: flex;
+    
+    justify-content:center;
+    font-family: 'Comfortaa', cursive;
+    flex-wrap: wrap;
+}
+.loginForm form{
+    margin-top:25px ;
+   padding: 30px 30px;
+    border-radius: 13px;
+    /* margin-left: 15px; */
+  background-color: rgb(21, 10, 41);
+}
+.loginForm h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(17, 139, 56);
+}
+.loginForm label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 10px;
+color: rgb(49, 174, 49);
+}
+.loginForm input[type="text"],.loginForm input[type="password"]{
+    border-radius: 20px;
+    height: 30px;
+    padding: 8px 8px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(139, 192, 141);
+    border: none;
+}
+
+button{
+    
+    display: block;
+    margin-top:30px;
+    border-radius: 25px;
+    border: none;
+    background-color:  rgb(17, 139, 56);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:7px 7px;
+    color:rgb(35, 33, 36) ;
+    font-family: 'Comfortaa', cursive;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+background-color: rgb(49, 174, 49);
+color: rgb(21, 10, 41);
+
+}

@@ -1,0 +1,55 @@
+.home{
+    margin: 0px 0px;
+    background-color: rgb(37, 24, 63);
+    height:100vh;
+    width:100%;
+}
+
+.bar ul
+{
+  
+  list-style-type: none;
+  margin: 0px 0px;
+  padding: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+  background-color: rgb(21, 10, 41);
+}
+
+li{
+    float: auto;
+    /* padding-top: 30px; */
+}
+li a {
+    display: block;
+
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 10px;
+}
+
+.scoreboard{
+    margin-top: 40px;
+    display: flex;
+    font-family:'Comfortaa', cursive;
+    justify-content: center;
+    /* border: 3px solid ; */
+}
+.scoreboard table{
+    
+    /* border:2px solid salmon; */
+    padding: 13px;
+}
+.scoreboard td, .scoreboard th{
+    padding:10px;
+    color: azure;
+   text-align: center;
+   font-size: 1.8rem;
+   border-radius: 5px;
+   width: 125px;
+   text-shadow: 2px 2px 5px rgb(61, 78, 71);
+   background-color: rgb(16, 16, 41);
+}
