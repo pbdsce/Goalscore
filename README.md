@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# [Goalscore](https://github.com/pbdsce/Goalscore)
+[![GitHub contributors](https://img.shields.io/github/contributors/GDSC-DSI/api)](https://github.com/pbdsce/Goalscore/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/HAC-2020/Aimers)](https://github.com/kitarp29/api/issues/) [![apkSize](https://img.shields.io/badge/Web%20App%20size-32MB-blue)]() <br/>  
+## Overview
+The API is a basic REST API written to be called by the App built under Android Study Jams 2021. We built this API under the Org. [**Google Developer Student Club - DSI**](https://gdsc.community.dev/dayananda-sagar-institutions-bengaluru/).
+There is basic work of the API is to provide routes to *GET* and *POST* the timetable of different classes that are conducted on our college campus. This app provides the data for the classes happening at [Dayananda Sagar College of Engineering, Bangalore](http://dsce.edu.in/) in real-time.
+This is still a system in development.
+## ✨ Proposed Solution :
+This project proposes an “Attendance Manager System” which also has a “Digital Time Table” in it.
+</p>
+<p>
+The attendance management system allows students to track their attendance in any subject of their choice. They just have to add the subject of their choice and mark attended or missed for each class they have. Then the app will automatically generate and display a progress bar indicating their attendance percentage. 
+</p>
+<p>
+The digital timetable takes data from users like – year, branch & semester. Then it fetches & displays the timetable for the given data. Students get their class schedule in a few clicks, that too in a hassle-free manner.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🛠 How To Setup :
+Minimun requirements:
+- [Node.JS v14+](https://nodejs.org/en/download/)
+- [MongoDB Databse](https://www.mongodb.com/) (Local/Remote)
+- Any Code Editor
+- Internet Browser
+- Internet
+## Docker Setup:
+- First make sure your laptop has Docker
+- Open terminal, run ```docker pull kitarp29/gdsc_dsi_api:1.0```
+- Run ```docker run -e  DATABASE_URL -d --name pk -p 5000:5000 kitarp29/gdsc_dsi_api:1.0```
+- The API is running at  [http://localhost:5000/](http://localhost:5000/)
+## Steps to set up locally
+- Clone the Repo
+- Open in any code editor
+- In index.js replace ```process.env.DATABASE_URL``` with the URL of your MongoDB Database
+- In your terminal, run: ``` npm i``` (supposing you have npm, commands might differ for yarn)
+- Now, run: ```nodemon index.js```
+ 
+This should start a server running at [http://localhost:5000/](http://localhost:5000/)
 
-## Available Scripts
+## Rules for Contributing:
+- Always commit to ```main``` branch
+- Make descriptive issues
+- Make a fork and then make a Pull Request
 
-In the project directory, you can run:
+## Current Tech Specs
+- NodeJS Version v14.18.2
+- Heroku for Deploying API
+- MongoDB Atlas for Database
 
-### `npm start`
+## Tasks for future
+- Make logging procedure for each request
+- Containerise the API Server
+- Deploy it in a K8s Cluster
+- Add Monitoring tools for the server like ELK, Prometheus, and Grafana
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Watch this
+https://user-images.githubusercontent.com/74984914/149630743-22f11a13-8434-482c-a574-4b0ef355c062.mp4
 
-### `npm test`
+To know more stay tuned at [GDSC Dayananda Sagar Institutions Youtube Channel](https://www.youtube.com/channel/UCMsXkBhIKnEpDAJGNKGo0Tw)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Thanks for the interest in our API :)
