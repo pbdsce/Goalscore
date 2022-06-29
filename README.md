@@ -1,7 +1,7 @@
 # [Goalscore](https://github.com/pbdsce/Goalscore)
 [![GitHub contributors](https://img.shields.io/github/contributors/GDSC-DSI/api)](https://github.com/pbdsce/Goalscore/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/HAC-2020/Aimers)](https://github.com/kitarp29/api/issues/) [![apkSize](https://img.shields.io/badge/Web%20App%20size-32MB-blue)]() <br/>  
 ## Overview
-The API is a basic REST API written to be called by the App built under Android Study Jams 2021. We built this API under the Org. [**Google Developer Student Club - DSI**](https://gdsc.community.dev/dayananda-sagar-institutions-bengaluru/).
+Basic REACT app built to keep a tab on the live scores of Football. We built this app under . [**Point Blank**](https://github.com/pbdsce).
 There is basic work of the API is to provide routes to *GET* and *POST* the timetable of different classes that are conducted on our college campus. This app provides the data for the classes happening at [Dayananda Sagar College of Engineering, Bangalore](http://dsce.edu.in/) in real-time.
 This is still a system in development.
 ## ✨ Proposed Solution :
