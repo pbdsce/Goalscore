@@ -1,61 +1,43 @@
 # [Goalscore](https://github.com/pbdsce/Goalscore)
-[![GitHub contributors](https://img.shields.io/github/contributors/GDSC-DSI/api)](https://github.com/pbdsce/Goalscore/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/HAC-2020/Aimers)](https://github.com/kitarp29/api/issues/) [![apkSize](https://img.shields.io/badge/Web%20App%20size-32MB-blue)]() <br/>  
+[![GitHub contributors](https://img.shields.io/github/contributors/GDSC-DSI/api)](https://github.com/pbdsce/Goalscore/graphs/contributors) 
+<!-- [![GitHub issues](https://img.shields.io/github/issues/HAC-2020/Aimers)](https://github.com/kitarp29/api/issues/) [![apkSize](https://img.shields.io/badge/Web%20App%20size-32MB-blue)]() <br/>   -->
 ## Overview
-Basic REACT app built to keep a tab on the live scores of Football. We built this app under <. > [**Point Blank**](https://github.com/pbdsce).
-There is basic work of the API is to provide routes to *GET* and *POST* the timetable of different classes that are conducted on our college campus. This app provides the data for the classes happening at [Dayananda Sagar College of Engineering, Bangalore](http://dsce.edu.in/) in real-time.
-This is still a system in development.
-## ✨ Proposed Solution :
-This project proposes an “Attendance Manager System” which also has a “Digital Time Table” in it.
-</p>
-<p>
-The attendance management system allows students to track their attendance in any subject of their choice. They just have to add the subject of their choice and mark attended or missed for each class they have. Then the app will automatically generate and display a progress bar indicating their attendance percentage. 
-</p>
-<p>
-The digital timetable takes data from users like – year, branch & semester. Then it fetches & displays the timetable for the given data. Students get their class schedule in a few clicks, that too in a hassle-free manner.
-</p>
+This project aims at broadcasting the live scores of Football leveraging this REACT based app. We built this app under <. > [**Point Blank**](https://github.com/pbdsce).
+It displays the scores of both the teams that are currently playing a match. An authorized admin can update the scores by logging-in while the match is in progress for the teams entered. The website will automatically fetch and display the LiveScores to the audience. The project is going to be enhanced with additional features in the future.
 
-## 🛠 How To Setup :
-Minimun requirements:
-- [Node.JS v14+](https://nodejs.org/en/download/)
-- [MongoDB Databse](https://www.mongodb.com/) (Local/Remote)
-- Any Code Editor
-- Internet Browser
-- Internet
-## Docker Setup:
-- First make sure your laptop has Docker
-- Open terminal, run ```docker pull kitarp29/gdsc_dsi_api:1.0```
-- Run ```docker run -e  DATABASE_URL -d --name pk -p 5000:5000 kitarp29/gdsc_dsi_api:1.0```
-- The API is running at  [http://localhost:5000/](http://localhost:5000/)
-## Steps to set up locally
-- Clone the Repo
-- Open in any code editor
-- In index.js replace ```process.env.DATABASE_URL``` with the URL of your MongoDB Database
-- In your terminal, run: ``` npm i``` (supposing you have npm, commands might differ for yarn)
-- Now, run: ```nodemon index.js```
- 
-This should start a server running at [http://localhost:5000/](http://localhost:5000/)
+## Diagram Architecture:
 
-## Rules for Contributing:
+## 🛠 Steps to start:
+1.Clone the repo
+    git clone ‘https://github.com/pbdsce/Goalscore’
+2.Configuration of the cloned app
+    cd my-cloned-app (where the cloned folder name is ‘my-cloned-app’)
+    run npm install
+3.Starting the react app
+    npm start
+    Runs the app in the development mode.
+    Open http://localhost:3000 to view it in your browser.
+4. Build and deployment
+    npm run build
+    Builds the app for production to the build folder.
+    It correctly bundles React in production mode and optimizes the build for the best performance.
+    The build is minified and the filenames include the hashes.
+    Your app is ready to be deployed!
+
+ ## Rules for Contributing:
 - Always commit to ```main``` branch
 - Make descriptive issues
 - Make a fork and then make a Pull Request
 
 ## Current Tech Specs
-- NodeJS Version v14.18.2
-- Heroku for Deploying API
-- MongoDB Atlas for Database
+- ReactJS
+- Heroku for Deploying
+- Firebase
 
 ## Tasks for future
-- Make logging procedure for each request
-- Containerise the API Server
-- Deploy it in a K8s Cluster
-- Add Monitoring tools for the server like ELK, Prometheus, and Grafana
+- Working on UI/UX
+- Displaying the history of LiveScores.
 
+### Thank you for your interest. Hope you liked it :)
 
-## Watch this
-https://user-images.githubusercontent.com/74984914/149630743-22f11a13-8434-482c-a574-4b0ef355c062.mp4
-
-To know more stay tuned at [GDSC Dayananda Sagar Institutions Youtube Channel](https://www.youtube.com/channel/UCMsXkBhIKnEpDAJGNKGo0Tw)
-
-
-### Thanks for the interest in our API :)
+Licensing: MIT License
