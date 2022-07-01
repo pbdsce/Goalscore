@@ -14,10 +14,12 @@ It displays the scores of both the teams that are currently playing a match. An 
 2.Configuration of the cloned app
     cd my-cloned-app (where the cloned folder name is ‘my-cloned-app’)
     run npm install
+    <br>
 3.Starting the react app
     npm start
     Runs the app in the development mode.
     Open http://localhost:3000 to view it in your browser.
+    <br>
 4. Build and deployment
     npm run build
     Builds the app for production to the build folder.
