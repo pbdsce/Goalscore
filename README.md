@@ -10,6 +10,7 @@ It displays the scores of both the teams that are currently playing a match. An 
 ## 🛠 Steps to start:
 1.Clone the repo
     git clone ‘https://github.com/pbdsce/Goalscore’
+    <br>
 2.Configuration of the cloned app
     cd my-cloned-app (where the cloned folder name is ‘my-cloned-app’)
     run npm install
