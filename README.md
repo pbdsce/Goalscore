@@ -3,8 +3,8 @@
 [![GitHub issues](https://img.shields.io/github/issues/HAC-2020/Aimers)](https://github.com/pbdsce/Goalscore/issues)
 <!-- [![apkSize](https://img.shields.io/badge/Web%20App%20size-32MB-blue)]()   -->
 <br/> 
-## Overview :
-<br> 
+
+## Overview: 
 This project aims at broadcasting the live scores of Football leveraging this REACT based app. We built this app under <. > [**Point Blank**](https://github.com/pbdsce).
 It displays the scores of both the teams that are currently playing a match. An authorized admin can update the scores by logging-in while the match is in progress for the teams entered. The website will automatically fetch and display the LiveScores to the audience. The project is going to be enhanced with additional features in the future.
 
