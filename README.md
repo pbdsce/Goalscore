@@ -9,6 +9,8 @@ It displays the scores of both the teams that are currently playing a match. An 
 
 ## Diagram Architecture:
 
+![image](https://user-images.githubusercontent.com/75614134/176957062-20cbaa5a-440d-45f0-8465-d40a16f7773d.png)
+
 ## 🛠 Steps to start:
 1.Clone the repo
     git clone ‘https://github.com/pbdsce/Goalscore’
