@@ -2,7 +2,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/GDSC-DSI/api)](https://github.com/pbdsce/Goalscore/graphs/contributors) 
 [![GitHub issues](https://img.shields.io/github/issues/HAC-2020/Aimers)](https://github.com/pbdsce/Goalscore/issues)
 <!-- [![apkSize](https://img.shields.io/badge/Web%20App%20size-32MB-blue)]()   -->
-<br> 
+<br/> 
 ## Overview :
 <br> 
 This project aims at broadcasting the live scores of Football leveraging this REACT based app. We built this app under <. > [**Point Blank**](https://github.com/pbdsce).
