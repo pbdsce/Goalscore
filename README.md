@@ -14,33 +14,33 @@ It displays the scores of both the teams that are currently playing a match. An 
 ## 🛠 Steps to start:
 1.Clone the repo :
     <br>
-    - git clone ‘https://github.com/pbdsce/Goalscore’
+    ```git clone ‘https://github.com/pbdsce/Goalscore’```
     <br>
 2.Configuration of the cloned app :
     <br>
-    - cd my-cloned-app (where the cloned folder name is ‘my-cloned-app’)
+    - ```cd my-cloned-app``` (where the cloned folder name is ‘my-cloned-app’)
     <br>
-    - run npm install
+    - ```run npm install```
     <br>
 3.Starting the react app :
     <br>
-    - npm start
+    ```npm start```
     <br>
-    - Runs the app in the development mode.
+        Runs the app in the development mode.
     <br>
-    - Open http://localhost:3000 to view it in your browser.
+        Open http://localhost:3000 to view it in your browser.
     <br>
 4. Build and deployment:
     <br>
-    - npm run build
+        ```npm run build```
     <br>
-    - Builds the app for production to the build folder.
+        Builds the app for production to the build folder.
     <br>
-    - It correctly bundles React in production mode and optimizes the build for the best performance.
+        It correctly bundles React in production mode and optimizes the build for the best performance.
     <br>
-    - The build is minified and the filenames include the hashes.
+        The build is minified and the filenames include the hashes.
     <br>
-    - Your app is ready to be deployed!
+        Your app is ready to be deployed!
     <br>
 
  ## Rules for Contributing:
