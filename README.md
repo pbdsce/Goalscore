@@ -28,8 +28,6 @@ It displays the scores of both the teams that are currently playing a match. An 
     <br>
     - Runs the app in the development mode.
     <br>
-    - Displaying the history of LiveScores.
-    <br>
     - Open http://localhost:3000 to view it in your browser.
     <br>
 4. Build and deployment:
